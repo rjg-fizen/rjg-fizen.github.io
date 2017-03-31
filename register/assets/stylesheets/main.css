@@ -1,0 +1,99 @@
+body {
+  background-color: #ED6A5A;
+  font: 1.5em "Fredoka One";
+  color: #805E73;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+h1 {
+  text-align: center;
+  color: #F4F1BB;
+  letter-spacing: .5px;
+}
+form {
+  padding: 60px;
+  box-shadow: 10px 10px 5px #97443A;
+  background: #fff;
+border-radius: 20px;
+}
+
+button {
+  display: inline-block;
+  border: 1px solid #BDDAED;
+  height: 70px;
+  width: 200px;
+  font-size: 1em;
+  font-family: "Fredoka One";
+  background-color: #fff;
+  color: #ED6A5A;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: #ED6A5A;
+  color: #fff;
+  border: none;
+}
+
+#register {
+  background-color: #ED6A5A;
+  height: 70px;
+  width: 200px;
+  color: white;
+  
+  margin-right: 40px;
+}
+
+#register:hover{
+  background-color: #97443A;
+}
+
+label {
+  display: block;
+  margin: 0 auto  auto;;
+  width: 80%;
+  font-size: 1.5em;
+  color: #ccc;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  display: block;
+  height: 0px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0 auto 10% auto;
+  font: 1.5em "Fredoka One";
+  color: #ED6A5A;
+  transition: border-bottom .2s;
+  transition: height .2s;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  outline: none;
+  border-bottom: 6px solid #805E73;
+  padding: 10px;
+  height: 50px;
+}
+
+input[type=text]:valid, input[type=password]:valid, input[type=email]:valid {
+  outline: none;  
+  padding: 10px;
+  height: 50px;
+}
+
+@media (max-width: 800px){
+  button {
+    margin-bottom: 25px;
+  }
+  
+  form {
+    margin-right: 18px;
+  }
+}
