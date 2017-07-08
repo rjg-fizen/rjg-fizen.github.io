@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, main, header, nav, ul, li, section, h1, span, p, img { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #002239;
+}
+
+.hero, .footer {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.hero {
+    background: url(mountain.jpg);
+    width: 100%;
+    height: 800px;
+
+}
+
+.footer { 
+    background: url(winterpath.jpg);
+    width: 100%;
+    height: 800px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+footer div { 
+    width: 50%;
+}
+
+.footer h1 { 
+    text-shadow: 2px 2px 5px #333;
+}
+
+.footer p {
+    font-family: 'Raleway';  
+    font-size: .75em;
+    color: #333;
+    font-weight: 300;
+}
+
+.tagline {
+    margin-left: 5%;
+    padding-top: 20%;
+    text-shadow: 2px 2px 5px #333;
+    color: #fff;
+}
+
+.tagline h1 { 
+    font-weight: 300;
+}
+
+.subtext { 
+    font-weight: 300;
+    font-family: 'Raleway';
+    margin-top: -15px;
+    font-size: .75em;
+    margin-left: 3em;
+}
+
+.important {
+    text-decoration: underline;
+}
+
+.center-text { 
+    text-align: center;
+}
+
+.top-nav {
+    font-weight: 400;
+    padding: 20px 10px 10px 10px;
+    font-size: .375em;
+    width: 100%;
+    font-family: 'Raleway';
+    letter-spacing: 1.5px;
+    text-align: right;
+}
+
+.top-nav ul { 
+    list-style: none;
+}
+
+.top-nav ul li { 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.about { 
+    background-color: #213142;
+    height: 250px;
+    width: 100%;
+    font-weight: 300;
+    border-top: 1px solid #fff;
+    letter-spacing: .5px;
+    font-size: 1.65em;
+    color: #fff;
+    /*box-shadow: 5px 0px 5px #F7F0F5;*/
+}
+
+.quotes { 
+    height: 300px;
+}
+
+.quotes p { 
+    width: 30%;
+}
+
+.fa-quote-left {
+    font-size: 3em;
+}
+
+.flex { 
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-cell.one-column { 
+    width: 100%;
+}
+
+.flex-cell.four-column {
+    width: 33.3%;
+    height: 400px;    
+}
+
+.center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-cell { 
+    align-self: center;
+    
+}
+
+.royal-color { 
+    background-color: #4C5876;
+    color: #fff;
+}
+
+.blue-color { 
+    background-color: #235270;
+    color: #fff;
+}
+
+.tan-color {
+    background-color: #bba8a0;
+}
+
+.big-blue-btn { 
+    background-color: #235270;
+    color: #fff;
+    padding: 5px 35px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-family: 'Permanent Marker';
+    border: none;
+    margin-top: 50px;
+    
+}
+
+.active { 
+    border-radius: 3px;
+    background-color: #213142;
+    color: #fff;
+    padding: 2px;
+}
+
+.screenshot { 
+    box-shadow: 1px 1px 20px #000;
+    border: 1px solid #000;
+    height: 300px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 550px;
+}
+
+.social-icons { 
+    color: #213142;
+    display: inline-block;
+    margin: 50px 20px;
+}
+
+.screenshot.envision-university { 
+    background: url("envisionuniversity.png") center;
+}
+
+.screenshot.bosma { 
+    background: url("bosma.png") center;
+}
+
+.screenshot.vivid-ciphers { 
+    background: url("vc.png") center;
+}
+
+.screenshot.tribute-page { 
+    background: url("tribute-page.png") center;
+}
+
+.screenshot.big-tim { 
+    background: url("big-tim.png") center;
+}
+
+.screenshot.number-guesser { 
+    background: url("number-guesser.png") center;
+}
+
+
+
+@media (max-width: 1400px){
+    .flex-cell.four-column {
+    width: 50%;
+    height: 400px;
+}
+}
+
+@media (max-width: 968px){
+    .flex-cell.four-column {
+    width: 100%;
+    height: 400px;
+}
+
+.quotes p { 
+    width: 100%;
+}
+
+.footer div { 
+    width: 100%;
+}
+}
