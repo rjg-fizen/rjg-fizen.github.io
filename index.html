@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +14,13 @@
 
 <body>
     <main>
-        <header class="hero">
+        <header class="hero" id="home">
             <nav class="top-nav">
                 <ul>
-                    <li class="active">HOME</li>
-                    <li>ABOUT</li>
-                    <li>WORK</li>
-                    <li>CONTACT</li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
 
@@ -31,7 +30,7 @@
             </div>
 
         </header>
-        <section class="about center center-text">
+        <section class="about center center-text" id="about">
             <div class="flex-cell one-column">
                 <p>
                     Hey, I'm Ryan. I'm a full stack developer with a knack for solving your difficult problems.
@@ -46,32 +45,8 @@
             </div>-->
         </section>
 
-        <section class="work center-text">
+        <section class="work center-text" id="work">
             <div class="flex wrap">
-                <div class="flex-cell four-column center">
-                    <div class="screenshot envision-university">
-                    </div>
-                </div>
-                <div class="flex-cell four-column center">
-                    <div class="screenshot bosma">
-                    </div>
-                </div>
-                <div class="flex-cell four-column center">
-                    <div class="screenshot vivid-ciphers">
-                    </div>
-                </div>
-                <div class="flex-cell four-column center">
-                    <div class="screenshot tribute-page">
-                    </div>
-                </div>
-                <div class="flex-cell four-column center">
-                    <div class="screenshot big-tim">
-                    </div>
-                </div>
-                <div class="flex-cell four-column center">
-                    <div class="screenshot number-guesser">
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -84,7 +59,7 @@
             </p>
         </section>
 
-        <footer class="footer center center-text">
+        <footer class="footer center center-text" id="contact">
             <div>
                 <h1>Contact me</h1>
                 <p>I'm always interested in new opportunities. If you have something you want to run by me, don't hesitate to
@@ -97,6 +72,8 @@
             </div>
         </footer>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
